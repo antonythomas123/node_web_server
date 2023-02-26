@@ -9,6 +9,7 @@ const http = require('http');
 
 class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();        //initialize Object
+myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName));
 
 const PORT = process.env.PORT || 3500;  //port for our web server
 
@@ -23,12 +24,16 @@ const serveFile = async (filePath,contentType,response) => {
         //to deal with json files
         const data = contentType === 'application/json'
             ? JSON.parse(rawData) : rawData;
-        response.writeHead(200, {'Content-Type': contentType});
+        response.writeHead(
+            filePath.includes('404.html') ? 404 : 200, 
+            {'Content-Type': contentType}
+        );
         response.end(
             contentType === 'application/json' ? JSON.stringify(data) : data
         );
     }catch(err){
         console.log(err);
+        myEmitter.emit('log', `${err.name}: ${err.message}`, 'errLog.txt');
         response.statusCode = 500;  //server error
         response.end();
     }
@@ -37,6 +42,8 @@ const serveFile = async (filePath,contentType,response) => {
 //minimal server
 const server = http.createServer((req,res) => {
     console.log(req.url, req.method);
+
+    myEmitter.emit('log', `${req.url}\t${req.method}`, 'reqLog.txt');
 
     //extension of req url
     const extension = path.extname(req.url);
@@ -105,12 +112,6 @@ const server = http.createServer((req,res) => {
         }
     }
 })
-
-
-
-
-
-// myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName));
 
 //server listening for request
 server.listen(PORT, () => {
