@@ -1,0 +1,6 @@
+20230227	14:19:15	071e7244-415a-47a5-a5f0-757706ee62f9	GET	undefined	/
+20230227	14:19:15	0b17b24c-da7c-4dfb-a546-55cefc32dc0c	GET	undefined	/css/style.css
+20230227	14:24:09	0db9e03b-1168-4562-b541-24bb71c9bfe8	GET	undefined	/
+20230227	14:24:09	9a1b5188-3bc7-4b69-9862-ed5971a606b6	GET	undefined	/css/style.css
+20230227	14:26:03	f41e3a2c-f899-44ea-96fb-c97938fe56b6	OPTIONS	https://www.google.com	/
+20230227	14:26:03	65859d65-b4c0-455b-aacc-ad18af63e5c8	GET	https://www.google.com	/
