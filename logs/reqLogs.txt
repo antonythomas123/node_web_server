@@ -82,3 +82,6 @@
 20230306	18:40:36	d730a591-0e71-43e2-80d9-27f6c9b40766	GET	undefined	/subdir/test
 20230306	18:40:41	c83afa75-644a-40da-99a1-4743226af771	GET	undefined	/subdir/ajdkj
 20230306	18:40:41	b8ea74c4-9373-489e-aef3-9fee62ad9525	GET	undefined	/subdir/css/style.css
+20230306	19:04:35	ad899698-85c1-4486-ae80-1bab417b5f1b	GET	undefined	/employees
+20230306	19:04:43	2f451c6d-58d9-425a-825b-3743c40daca8	GET	undefined	/employees
+20230306	19:05:30	35e5d8aa-8c0c-475f-bead-24186c0df61a	POST	undefined	/employees
