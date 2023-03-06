@@ -49,6 +49,8 @@ app.use(express.json());
 //built-in middleware for static files
 app.use(express.static(path.join(__dirname, '/public')));
 
+//express route for static file
+app.use('/subdir', require('./routes/subdir'));
 
 //Express route
 app.get('/', (req, res) => {

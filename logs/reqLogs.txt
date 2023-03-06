@@ -31,3 +31,9 @@
 20230306	11:33:19	d615a022-9a36-4eb7-a3a2-806b99fb8f6c	GET	undefined	/css/style.css
 20230306	11:33:39	c8b581cd-23e4-4b3f-b6f8-2835b245ffa0	GET	undefined	/antony
 20230306	11:33:39	f0b36d21-2c6f-4bde-8370-fb644c8181d5	GET	undefined	/css/style.css
+20230306	18:19:30	5c8c1e8e-9126-486d-920f-69e2668daaeb	GET	undefined	/
+20230306	18:19:30	19bb2315-83dc-4cd1-8fff-0c34b1fd3627	GET	undefined	/css/style.css
+20230306	18:19:37	fe41be9e-e34c-4f4c-a128-b6329415ccab	GET	undefined	/subdir
+20230306	18:19:43	fe0805ce-0197-4023-ba3d-a694b6b2e74d	GET	undefined	/subdir/test
+20230306	18:19:43	9101208c-114d-491e-a4c4-36c44c871fb0	GET	undefined	/subdir/css/style.css
+20230306	18:21:19	ee478457-250a-43eb-b000-e8280e340a2f	GET	undefined	/subdir/test
