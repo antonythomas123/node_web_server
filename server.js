@@ -8,6 +8,8 @@ const cors = require('cors');
 //const logEvents = require('./middleware/log');
 const { logger, logEvents } = require('./middleware/log');
 
+const errorHandler = require('./middleware/errorHandler');
+
 const PORT = process.env.PORT || 3500;  //port for our web server
 
 //custom middleware's
@@ -26,7 +28,7 @@ app.use(logger);
 const whitelist=['https://www.yoursite.com','http://127.0.0.1:5500','http://localhost:3500']; //whitelist that the backend will not show cors
 const corsOptions = {
     origin: (origin, callback) => {
-        if(whitelist.indexOf(origin)!== -1){
+        if(whitelist.indexOf(origin)!== -1 || !origin){
             callback(null,true)
         }else{
             callback(new Error('Not allowed by CORS'));
@@ -95,6 +97,8 @@ const three = (req, res) => {
     res.send('Finished');
 }
 app.get('/chain.html', [one, two, three]);
+
+app.use(errorHandler);
 
 //server listening for request
 app.listen(PORT, () => {

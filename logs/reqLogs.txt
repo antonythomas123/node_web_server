@@ -15,3 +15,11 @@
 20230306	11:15:25	1d507e6e-1b3c-4ff2-bcc2-e1fc3063d67d	GET	https://www.google.com	/
 20230306	11:15:40	aebcbdca-b41a-4957-8da7-ee35ab76a224	OPTIONS	https://www.google.com	/
 20230306	11:15:40	1e0393e2-84f3-4cd4-be49-6521ec8a3eb2	GET	https://www.google.com	/
+20230306	11:21:43	264bd865-0414-4974-af2b-96beb5b15ee2	GET	undefined	/
+20230306	11:22:20	96c48f83-12e6-4a6a-aaa6-a03b38bd88f3	GET	undefined	/
+20230306	11:22:20	8c346560-9db9-4831-8e7d-a03a18d79b29	GET	undefined	/css/style.css
+20230306	11:26:41	69f24777-46d3-4675-aaf9-ac0ae2850ea6	GET	undefined	/
+20230306	11:26:41	1bb5ed94-6040-458e-b5bb-5058cb212447	GET	undefined	/css/style.css
+20230306	11:27:40	54034e52-9a92-4c25-aa3f-855a270b1075	GET	undefined	/
+20230306	11:28:07	37f8a3c1-4640-41a4-8752-3d09a16e982b	GET	undefined	/
+20230306	11:28:07	a7ed4c5b-5758-4867-a7ca-a10b57a90361	GET	undefined	/css/style.css
