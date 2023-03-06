@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+//third party middleware
+const cors = require('cors');
+
 //const logEvents = require('./middleware/log');
 const { logger, logEvents } = require('./middleware/log');
 
@@ -19,6 +22,19 @@ const PORT = process.env.PORT || 3500;  //port for our web server
 
 app.use(logger);
 
+//third party middleware
+const whitelist=['https://www.yoursite.com','http://127.0.0.1:5500','http://localhost:3500']; //whitelist that the backend will not show cors
+const corsOptions = {
+    origin: (origin, callback) => {
+        if(whitelist.indexOf(origin)!== -1){
+            callback(null,true)
+        }else{
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    optionSuccessStatus: 200
+}
+app.use(cors(corsOptions));
 
 //built-in middleware's
 // to handle urlencoded data, in other words form data
