@@ -53,6 +53,7 @@ app.use('/subdir',express.static(path.join(__dirname, '/public')));
 //express route for static file
 app.use('/', require('./routes/root'));
 app.use('/subdir', require('./routes/subdir'));
+app.use('/employees', require('./routes/api/employees'));
 
 //Express route
 // app.get('/', (req, res) => {
