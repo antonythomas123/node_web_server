@@ -85,3 +85,5 @@
 20230306	19:04:35	ad899698-85c1-4486-ae80-1bab417b5f1b	GET	undefined	/employees
 20230306	19:04:43	2f451c6d-58d9-425a-825b-3743c40daca8	GET	undefined	/employees
 20230306	19:05:30	35e5d8aa-8c0c-475f-bead-24186c0df61a	POST	undefined	/employees
+20230306	19:15:18	f2e1a046-f4ab-466d-b4c2-5243d0dfbf4d	GET	undefined	/
+20230306	19:15:18	bdab77f0-bbc2-402c-992f-90f7d0da2535	GET	undefined	/css/style.css
