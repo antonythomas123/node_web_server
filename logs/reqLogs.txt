@@ -87,3 +87,8 @@
 20230306	19:05:30	35e5d8aa-8c0c-475f-bead-24186c0df61a	POST	undefined	/employees
 20230306	19:15:18	f2e1a046-f4ab-466d-b4c2-5243d0dfbf4d	GET	undefined	/
 20230306	19:15:18	bdab77f0-bbc2-402c-992f-90f7d0da2535	GET	undefined	/css/style.css
+20230318	18:25:31	5aeec71e-f9b8-49d8-bc1d-a025e0ad31d0	GET	undefined	/employees
+20230318	18:25:44	af9e02da-7104-439e-9d4c-88b1ffde0e82	POST	undefined	/employees
+20230318	18:28:01	54f016a2-7b03-491d-aa45-98b254ea924f	PUT	undefined	/employees
+20230318	18:28:29	f6ba16ae-a3fa-4ef7-8ec7-afdeb6dd1a37	DELETE	undefined	/employees
+20230318	18:28:44	801ce68d-c3e7-43a1-9e5b-ec8d15257418	GET	undefined	/employees
