@@ -106,3 +106,5 @@
 20230319	10:05:04	49cf33ff-1ab0-48e3-a69d-6803ca0299dc	POST	undefined	/register
 20230319	10:05:11	38777722-ce76-4042-8fc8-6505287fef30	POST	undefined	/register
 20230319	10:05:18	849cb219-42e9-4014-8ce6-13e3e060aa5c	POST	undefined	/register
+20230319	18:39:44	46c64716-2de8-4d5b-abb4-b72308667ccf	POST	undefined	/auth
+20230319	18:40:16	e474cbdd-9498-43ed-9f15-80d868521ed6	POST	undefined	/auth
