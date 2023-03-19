@@ -32,7 +32,9 @@ app.use('/',express.static(path.join(__dirname, '/public')));
 
 //express route for static file
 app.use('/', require('./routes/root'));
+app.use('/register', require('./routes/register'));
 app.use('/employees', require('./routes/api/employees'));
+
 
 app.all('*', (req, res) => {
     res.status(404);
